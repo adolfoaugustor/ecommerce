@@ -1,0 +1,14 @@
+{
+    "name": "Adolfo/ecommerce",
+    "authors": [
+        {
+            "name": "Adolfo augusto",
+            "email": "adolfoaugustor@gmail.com"
+        }
+    ],
+    "require": {
+        "klein/klein": "^2.1",
+        "escapework/frete": "0.5.*",
+        "phpmailer/phpmailer": "^6.0"
+    }
+}
