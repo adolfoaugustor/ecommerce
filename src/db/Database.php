@@ -77,16 +77,16 @@ class Database
 
         $con->commit();
 
-//        $id = $con->lastInsertId();
-//
-//        if (intval($id) > 0) {
-//
-//            $select = self::select($className, $table, ['*'], ['id = '.$id]);
-//
-//            if (empty($select)) return null;
-//
-//            return $select[0];
-//        }
+    //    $id = $con->lastInsertId();
+
+    //    if (intval($id) > 0) {
+
+    //        $select = self::select($className, $table, ['*'], ['id = '.$id]);
+
+    //        if (empty($select)) return null;
+
+    //        return $select[0];
+    //    }
 
         return $stmnt->rowCount();
     }
